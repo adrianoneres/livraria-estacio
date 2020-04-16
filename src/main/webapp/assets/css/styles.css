@@ -1,0 +1,18 @@
+body {
+    height: 100vh !important;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+footer {
+    margin-top: auto !important;
+    padding: 1rem 0 !important;
+    background-color: #F5F5F5;
+}
+
+.input-search .custom-select {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

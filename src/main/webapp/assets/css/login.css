@@ -1,0 +1,16 @@
+body {
+    background-color: #F5F5F5;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+}
