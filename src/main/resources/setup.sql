@@ -1,3 +1,15 @@
+-- Cria tabela usuarios
+CREATE TABLE usuarios(
+    id SERIAL,
+    nome VARCHAR(250),
+    login VARCHAR(250),
+    senha VARCHAR(100),
+    PRIMARY KEY(id)
+);
+
+-- Insere um usuario
+INSERT INTO usuarios(nome, login, senha) VALUES ('Tiao da Silva', 'tiao', 'e10adc3949ba59abbe56e057f20f883e'); -- senha: 123456
+
 -- Cria tabela autores
 CREATE TABLE autores(
     id SERIAL,
